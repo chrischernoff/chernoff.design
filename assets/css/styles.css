@@ -116,7 +116,7 @@ body {
       body p {
         margin: 4rem 0; } }
 .background-container {
-  background-image: url("../../images/background-compressed.jpg");
+  background-image: url("../images/background-compressed.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
