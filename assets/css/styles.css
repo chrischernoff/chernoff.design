@@ -116,9 +116,10 @@ body {
       body p {
         margin: 4rem 0; } }
 .background-container {
-  background-image: url("../../images/background.jpg");
+  background-image: url("../../images/background-compressed.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: fixed;
   height: 100%;
   width: 100%; }
@@ -132,12 +133,13 @@ body {
   overflow-x: hidden;}
 
 .container {
-  padding: 10vh 10vw;
+  padding: 8rem 10vw;
   z-index: 100;
   }
   @media (max-width: 580px) {
     .container {
-      text-align: center; } }
+      text-align: center;
+      padding: 4rem 10vw; } }
   @media (min-width: 1200px) {
     .container .content {
       width: 1200px;
@@ -194,7 +196,9 @@ a {
   line-height: 1.8rem; 
   -webkit-transition: color 0.4s;
   transition: color 0.4s;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  -webkit-animation: fadein 1.5s;
+          animation: fadein 1.5s;}
   
 .social {
   margin-top: auto; 
